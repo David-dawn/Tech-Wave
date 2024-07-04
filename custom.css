@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box; 
+}
+
+
+/* Hero section custom styling */
+.hero {
+    background: url('homepage\ pic.png') no-repeat center center;
+    background-size: contain;
+    padding: 20rem;
+}
+
+/* footer */
+footer {
+    background: #333;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Custom button styling */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-primary:focus, .btn-primary:active {
+    box-shadow: none;
+}
